@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Challenge Datasets (exceeds GitHub 100MB limit)
+dataset/
+student_resource/dataset/
+*.tsv
+
+# MacOS artifacts
+.DS_Store
+__MACOSX/
+
+# Environment
+.venv/
+venv/
+ENV/
+
+# Large model artifacts if needed
+*.joblib
+output/
